@@ -59,7 +59,7 @@ body:before{left:-330px;top:-220px}body:after{right:-330px;bottom:-260px;width:6
   const p = new URLSearchParams(location.search);
   const title = p.get("title") || "活動倒數";
   const sub   = p.get("sub")   || "";
-  const dateStr = p.get("date") || "2026-12-31T17:00";   // 預設日期，可直接改這裡
+  const dateStr = p.get("date") || "2026-12-12";   // 預設日期，可直接改這裡
   const doneText = p.get("done") || "🎉 時間到囉！🎉";
 
   const target = new Date(dateStr);
